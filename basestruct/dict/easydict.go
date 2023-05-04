@@ -4,7 +4,7 @@ type EasyDict struct {
 	m map[string]interface{}
 }
 
-func SoEasy() *EasyDict {
+func NewEasyDict() *EasyDict {
 	return &EasyDict{m: map[string]interface{}{}}
 }
 
@@ -168,5 +168,5 @@ func (dict *EasyDict) RandomDistinctKeys(limit int) []string {
 //	@Description: removes all keys in dict
 //	@receiver dict
 func (dict *EasyDict) Clear() {
-	*dict = *SoEasy()
+	*dict = *NewEasyDict()
 }
