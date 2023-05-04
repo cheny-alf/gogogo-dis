@@ -7,8 +7,8 @@ package tcp
 import (
 	"context"
 	"fmt"
-	"gogogo-dis/basestruct/interface/tcp"
-	"gogogo-dis/basestruct/lib/logger"
+	"gogogo-dis/interface/tcp"
+	"gogogo-dis/lib/logger"
 	"net"
 	"os"
 	"os/signal"
